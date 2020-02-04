@@ -1,0 +1,23 @@
+.content {
+  position: relative;
+  height: 100%;
+
+  h2 {
+    position: absolute;
+    left: calc(50% - 356px);
+    font-size: 100px;
+    font-weight: 400;
+    font-family: "Zhi Mang Xing", cursive;
+    color: #90caf9;
+  }
+
+  .converter {
+    position: absolute;
+    top: calc(50% - 172px);
+    left: calc(50% - 229px);
+    &-input {
+      margin: 20px;
+      display: block;
+    }
+  }
+}
